@@ -1,5 +1,4 @@
 - [Overview](#overview)
-  - [](#)
 - [Creating a Post in Tech Writers Tribe App](#creating-a-post-in-tech-writers-tribe-app)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Best Practices](#best-practices)
