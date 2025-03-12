@@ -1,8 +1,8 @@
 - [Overview](#overview)
   - [](#)
 - [Creating a Post in Tech Writers Tribe App](#creating-a-post-in-tech-writers-tribe-app)
-  - [Frequently Asked Questions](#frequently-asked-questions)
-  - [Best Practices](#best-practices)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [Best Practices](#best-practices)
 
 # Overview
 Creating a post allows you to share content, engage, and communicate with the community members. This quick start guide explains multiple methods for creating a post.
@@ -18,7 +18,6 @@ The illustration below outlines different ways of creating a post.
 - Tech Writers Tribe app  
 
 ---
-
 # Creating a Post in Tech Writers Tribe App
 Creating a post allows you to share your knowledge, insights, and experiences with the Tech Writers Tribe community. It involves the following:
 - Create a text-only post  
@@ -196,7 +195,7 @@ The document appears in the **Add Documents** window.
 
 ---
 
-## Frequently Asked Questions
+# Frequently Asked Questions
 - **How can I tag someone in my post?**  
 Use `@` followed by the username to tag a person. For example, `@sudha`.
 
@@ -213,7 +212,7 @@ You cannot recover a post after you delete it.
 
 ---
 
-## Best Practices
+# Best Practices
 - Use relevant hashtags. For example, `#TechnicalWriting`, `#APIWriting`.
 - Tag relevant members using `@username`.
 - Encourage engagement by asking questions and replying to comments.
