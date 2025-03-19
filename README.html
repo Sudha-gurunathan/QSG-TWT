@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#creating-a-post-on-tech-writers-tribe-app">Creating a Post on Tech Writers Tribe App</a>
+<ul>
+<li><a href="#create-a-text-only-post">Create a Text-only Post</a></li>
+<li><a href="#add-a-quiz">Add a Quiz</a></li>
+<li><a href="#add-a-poll">Add a Poll</a></li>
+<li><a href="#add-a-question">Add a Question</a></li>
+<li><a href="#add-an-image">Add an Image</a></li>
+<li><a href="#share-a-video">Share a Video</a></li>
+<li><a href="#share-a-document">Share a Document</a></li>
+</ul>
+</li>
+<li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+<li><a href="#best-practices">Best Practices</a></li>
+</ul>
+<h1 id="overview">Overview</h1>
+<p>Creating a post allows you to share content, engage, and communicate with the community members. This guide explains multiple methods for creating a post.</p>
+<p><strong>Options to Create a Post</strong><br>
+The illustration below outlines different ways of creating a post.</p>
+<p><img src="https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/twt image 1.png" alt="Creating a Post"></p>
+<p><strong>Create Text Post</strong>:  Share information, updates, or thoughts using a simple text-based post.<br>
+<strong>Add Quiz</strong>: Engage users by creating an interactive quiz.<br>
+<strong>Add Poll</strong>: Collect opinions or feedback with a quick poll.<br>
+<strong>Add Question</strong>: Spark discussions by posting a question.<br>
+<strong>Add Image</strong>: Enhance your post by uploading images or infographics.<br>
+<strong>Add Video</strong>: Improve engagement by sharing a video.<br>
+<strong>Add Document</strong>: Share important resources by uploading documents.<br>
+<strong>Add Emoji</strong>: Make your post more expressive by adding emojis.</p>
+<p><strong>Prerequisites</strong></p>
+<ul>
+<li>Stable internet connection</li>
+<li>Active account</li>
+<li>Tech Writers Tribe app</li>
+</ul>
+<h1 id="creating-a-post-on-tech-writers-tribe-app">Creating a Post on Tech Writers Tribe App</h1>
+<p>This section helps you accomplish the following:</p>
+<ul>
+<li>Create a text-only post</li>
+<li>Add a quiz</li>
+<li>Add a poll</li>
+<li>Ask a question</li>
+<li>Share an image</li>
+<li>Share a video</li>
+<li>Share a document</li>
+</ul>
+<h2 id="create-a-text-only-post">Create a Text-only Post</h2>
+<p>Adding a text post helps you to convey your message instantly.<br>
+To create,</p>
+<ol>
+<li>On your device, open the <strong>Tech Writers Tribe</strong> app.</li>
+<li>On the home page, perform one of the following:</li>
+</ol>
+<ul>
+<li>On the left pane, select <strong>Create a post</strong>.</li>
+<li>On the middle pane, select the <strong>Share something with the community</strong> box.</li>
+<li>In the <strong>Share something with the community</strong> box on the middle pane, select the <strong>+</strong> icon.</li>
+</ul>
+<ol start="3">
+<li>In the <strong>Create Post</strong> window, perform the following:<br>
+a. In the <strong>What do you want to talk about</strong> box, type your message.<br>
+b. (Optional) On the top-right pane, expand the <strong>Add Tag</strong> dropdown menu and select one of the following:</li>
+</ol>
+<ul>
+<li>API</li>
+<li>AI</li>
+<li>English</li>
+<li>Documentation tools<br>
+c. On the bottom pane, select <strong>Post</strong>.<br>
+<strong>Note</strong>: You can edit or delete your post as needed.</li>
+</ul>
+<p>Your text post is now visible to others.</p>
+<h2 id="add-a-quiz">Add a Quiz</h2>
+<p>Adding a quiz enhances engagement, assesses knowledge, and promotes interactive learning within the community.<br>
+To add,</p>
+<ol>
+<li>On your device, open the <strong>Tech Writers Tribe</strong> app.</li>
+<li>On the home page, perform one of the following:</li>
+</ol>
+<ul>
+<li>On the left pane, select <strong>Create a post</strong>.</li>
+<li>On the middle pane, select the <strong>Share something with the community</strong> box.</li>
+<li>In the <strong>Share something with the community</strong> box on the middle pane, select the <strong>+</strong> icon.</li>
+</ul>
+<ol start="3">
+<li>In the <strong>Create Post</strong> window, perform the following:<br>
+a. Select the <strong>Add Quiz</strong> icon.<br>
+b. In the <strong>Add a Quiz</strong> page, enter the required details.<br>
+For example, as displayed below.<br>
+<img src="https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/Untitled 1.png" alt="Alt Text">
+c. On the bottom pane, select <strong>Add</strong>.</li>
+</ol>
+<p>Your quiz is now visible to others.</p>
+<h2 id="add-a-poll">Add a Poll</h2>
+<p>Adding a poll helps in collecting opinions in a short time. It also encourages participation and interaction from your audience.<br>
+To add,</p>
+<ol>
+<li>On your device, open the <strong>Tech Writers Tribe</strong> app.</li>
+<li>On the home page, perform one of the following:</li>
+</ol>
+<ul>
+<li>On the left pane, select <strong>Create a post</strong>.</li>
+<li>On the middle pane, select the <strong>Share something with the community</strong> box.</li>
+<li>In the <strong>Share something with the community</strong> box on the middle pane, select the <strong>+</strong> icon.</li>
+</ul>
+<ol start="3">
+<li>In the <strong>Create Post</strong> window, perform the following:<br>
+a. Select the <strong>Add poll</strong> icon.<br>
+b. In the <strong>Add a Poll</strong> page, enter the required details.<br>
+For example, as displayed below.<br>
+<img src="https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/Untitled 2.png" alt="Alt Text">
+c. On the bottom pane, select <strong>Add</strong>.<br>
+<strong>Note</strong>: You can edit or delete your post as needed.</li>
+</ol>
+<p>Your poll is now visible to others.</p>
+<h2 id="add-a-question">Add a Question</h2>
+<p>Posting a question allows you to seek guidance and share knowledge. It also helps you build a strong knowledge-sharing community.<br>
+To add,</p>
+<ol>
+<li>On your device, open the <strong>Tech Writers Tribe</strong> app.</li>
+<li>On the home page, perform one of the following:</li>
+</ol>
+<ul>
+<li>On the left pane, select <strong>Create a post</strong>.</li>
+<li>On the middle pane, select the <strong>Share something with the community</strong> box.</li>
+<li>In the <strong>Share something with the community</strong> box on the middle pane, select the <strong>+</strong> icon.</li>
+</ul>
+<ol start="3">
+<li>In the <strong>Create Post</strong> window, perform the following:<br>
+a. Select the <strong>Add question</strong> icon.<br>
+The <strong>Add a Question</strong> page appears.<br>
+b. In the <strong>Add your question here</strong> box, enter your question.<br>
+c. On the bottom pane, select <strong>Add</strong>.<br>
+<strong>Note</strong>: You can edit or delete your post as needed.</li>
+</ol>
+<p>Your question is now visible to others.</p>
+<h2 id="add-an-image">Add an Image</h2>
+<p>Sharing an image enhances communication, engagement, and clarity of your content. It also helps you to explain complex content visually.<br>
+To share:</p>
+<ol>
+<li>On your device, open the <strong>Tech Writers Tribe</strong> app.</li>
+<li>On the home page, perform one of the following:</li>
+</ol>
+<ul>
+<li>On the left pane, select <strong>Create a post</strong>.</li>
+<li>On the middle pane, select the <strong>Share something with the community</strong> box.</li>
+<li>In the <strong>Share something with the community</strong> box on the middle pane, select the <strong>+</strong> icon.</li>
+</ul>
+<ol start="3">
+<li>In the <strong>Create Post</strong> window, perform the following:<br>
+a. Select the <strong>Add photos</strong> icon.<br>
+b. In the <strong>Add Photos</strong> window, perform one of the following:</li>
+</ol>
+<ul>
+<li>Drag and drop method:<br>
+i. On your device, open File Explorer or Finder and select your image.<br>
+ii. In the <strong>Add Photos</strong> upload box, drag and drop your image.</li>
+<li>Browse and select method:<br>
+i. Select the <strong>Drag and drop or click here to browse your files</strong> box.<br>
+The File Explorer or Finder application opens.<br>
+ii. In File Explorer or Finder, select and open your image.<br>
+The image appears in the <strong>Add Photos</strong> Window.<br>
+<strong>Note</strong>: You can upload a maximum of 25 images per post.<br>
+c. On the bottom pane, select Add.</li>
+</ul>
+<p>Your image is now visible to others.</p>
+<h2 id="share-a-video">Share a Video</h2>
+<p>Video sharing lets you visually demonstrate a process and engage your audience effectively.<br>
+To share,</p>
+<ol>
+<li>On your device, open the <strong>Tech Writers Tribe</strong> app.</li>
+<li>On the home page, perform one of the following:</li>
+</ol>
+<ul>
+<li>On the left pane, select <strong>Create a post</strong>.</li>
+<li>On the middle pane, select the <strong>Share something with the community</strong> box.</li>
+<li>In the <strong>Share something with the community</strong> box on the middle pane, select the <strong>+</strong> icon.</li>
+</ul>
+<ol start="3">
+<li>In the <strong>Create Post</strong> window, perform the following:<br>
+a. Select the <strong>Add video</strong> icon.<br>
+b. In the <strong>Add Video</strong> window, perform one of the following:</li>
+</ol>
+<ul>
+<li>Drag and drop method:<br>
+i. On your device, open File Explorer or Finder and select your video.<br>
+ii. In the <strong>Add Video</strong> upload box, drag and drop your video.</li>
+<li>Browse and select Method:<br>
+i. Select the <strong>Drag and drop or click here to browse your files</strong> box.<br>
+The File Explorer or Finder application opens.<br>
+ii. In File Explorer or Finder, select and open your video.<br>
+The video appears in the <strong>Add Video</strong> window.<br>
+<strong>Note</strong>: You can upload a maximum of 1 video per post.<br>
+c. On the bottom pane, select Add.</li>
+</ul>
+<p>Your video is now visible to others.</p>
+<h2 id="share-a-document">Share a Document</h2>
+<p>Sharing a document allows you to access important information anytime and maintain recor.<br>
+To share,</p>
+<ol>
+<li>On your device, open the <strong>Tech Writers Tribe</strong> app.</li>
+<li>On the home page, perform one of the following:</li>
+</ol>
+<ul>
+<li>On the left pane, select <strong>Create a post</strong>.</li>
+<li>On the middle pane, select the <strong>Share something with the community</strong> box.</li>
+<li>In the <strong>Share something with the community</strong> box on the middle pane, select the <strong>+</strong> icon.</li>
+</ul>
+<ol start="3">
+<li>In the <strong>Create Post</strong> window, select the <strong>Add Documents</strong> icon.</li>
+<li>In the <strong>Add Documents</strong> window, perform one of the following:</li>
+</ol>
+<ul>
+<li>Drag and drop method:<br>
+a. On your device, open File Explorer or Finder and select your document.<br>
+b. In the <strong>Add Documents</strong> upload box, drag and drop your document.</li>
+<li>Browse and select method:<br>
+a. Select the <strong>Drag and drop or click here to browse your files</strong> box.<br>
+The File Explorer or Finder application opens.<br>
+b. In File Explorer or Finder, select and open your document.<br>
+The document appears in the <strong>Add Documents</strong> window.</li>
+</ul>
+<ol start="5">
+<li>On the bottom pane, select <strong>Add</strong>.<br>
+<strong>Note</strong>: You can edit or delete your document as needed.</li>
+</ol>
+<p>Your document is now visible to others.</p>
+<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+<ul>
+<li>
+<p><strong>How can I tag someone in my post?</strong><br>
+Use <code>@</code> followed by the username to tag a person. For example, <code>@sudha</code>.</p>
+</li>
+<li>
+<p><strong>How do I pin a post?</strong><br>
+Only admins can pin posts. If you want your post to be pinned, contact the admin.</p>
+</li>
+<li>
+<p><strong>How do I report an inappropriate post?</strong></p>
+</li>
+</ul>
+<ol>
+<li>Select the three-dot menu (⋮) on the post.</li>
+<li>Select <strong>Report Post</strong> and select the reason for reporting.<br>
+The admin team will review the report.</li>
+</ol>
+<ul>
+<li><strong>Can I recover a deleted post?</strong><br>
+You cannot recover a post after you delete it.</li>
+</ul>
+<h1 id="best-practices">Best Practices</h1>
+<ul>
+<li>Use relevant hashtags. For example, <code>#TechnicalWriting</code>, <code>#APIWriting</code>.</li>
+<li>Tag relevant members using <code>@username</code>.</li>
+<li>Encourage engagement by asking questions and replying to comments.</li>
+<li>Maintain a professional and respectful tone.</li>
+</ul>
+
+</body>
+</html>
