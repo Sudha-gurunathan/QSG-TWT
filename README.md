@@ -73,7 +73,7 @@ To add,
 a. Select the **Add Quiz** icon.  
 b. In the **Add a Quiz** page, enter the required details.  
  For example, as displayed below.  
- ![Alt Text](https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/Untitled%201.png)
+ ![Alt Text](https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/Untitled%201.png)  
 c. On the bottom pane, select **Add**.
 
 Your quiz is now visible to others.  
@@ -203,4 +203,4 @@ You cannot recover a post after you delete it.
 - Use relevant hashtags. For example, `#TechnicalWriting`, `#APIWriting`.
 - Tag relevant members using `@username`.
 - Encourage engagement by asking questions and replying to comments.
-- Maintain a professional and respectful tone.  
+- Maintain a professional and respectful tone.
