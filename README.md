@@ -1,25 +1,39 @@
 - [Overview](#overview)
-  - [](#)
-- [Creating a Post in Tech Writers Tribe App](#creating-a-post-in-tech-writers-tribe-app)
+- [Creating a Post on Tech Writers Tribe App](#creating-a-post-on-tech-writers-tribe-app)
+  - [Create a Text-only Post](#create-a-text-only-post)
+  - [Add a Quiz](#add-a-quiz)
+  - [Add a Poll](#add-a-poll)
+  - [Add a Question](#add-a-question)
+  - [Add an Image](#add-an-image)
+  - [Share a Video](#share-a-video)
+  - [Share a Document](#share-a-document)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Best Practices](#best-practices)
 
 # Overview
-Creating a post allows you to share content, engage, and communicate with the community members. This quick start guide explains multiple methods for creating a post.
+Creating a post allows you to share content, engage, and communicate with the community members. This guide explains multiple methods for creating a post.  
 
+**Options to Create a Post**  
 The illustration below outlines different ways of creating a post.  
 
-![Alt Text](https://github.com/Sudha-gurunathan/QSG-TWT/raw/main/Untitled.png)
----
+![Creating a Post](https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/twt%20image%201.png)
+
+**Create Text Post**:  Share information, updates, or thoughts using a simple text-based post.  
+**Add Quiz**: Engage users by creating an interactive quiz.  
+**Add Poll**: Collect opinions or feedback with a quick poll.  
+**Add Question**: Spark discussions by posting a question.  
+**Add Image**: Enhance your post by uploading images or infographics.  
+**Add Video**: Improve engagement by sharing a video.  
+**Add Document**: Share important resources by uploading documents.  
+**Add Emoji**: Make your post more expressive by adding emojis.
 
 **Prerequisites**
 - Stable internet connection  
 - Active account  
 - Tech Writers Tribe app  
 
----
-# Creating a Post in Tech Writers Tribe App
-Creating a post allows you to share your knowledge, insights, and experiences with the Tech Writers Tribe community. It involves the following:
+# Creating a Post on Tech Writers Tribe App
+This section helps you accomplish the following:
 - Create a text-only post  
 - Add a quiz  
 - Add a poll  
@@ -28,172 +42,147 @@ Creating a post allows you to share your knowledge, insights, and experiences wi
 - Share a video  
 - Share a document  
 
-**Create a Text-only Post**  
+## Create a Text-only Post  
 Adding a text post helps you to convey your message instantly.  
-**To create:**  
-1. On your device, open the Tech Writers Tribe app.  
+To create,
+1. On your device, open the **Tech Writers Tribe** app.  
 2. On the home page, perform one of the following:
-- In the left pane, select **Create a post**.
-- In the middle pane, select the **Share something with the community** box.
-- In the middle pane, in the **Share something with the community** box, select the **+** icon.  
-The **Create Post** window appears.
-3. In the **Create Post** window, enter your message.
-4. *(Optional)* In the top-right pane, expand the **Add Tag** dropdown menu and select one of the following:
-- API  
-- AI  
-- English  
+- On the left pane, select **Create a post**.
+- On the middle pane, select the **Share something with the community** box.
+- In the **Share something with the community** box on the middle pane, select the **+** icon.  
+3. In the **Create Post** window, perform the following:  
+a. In the **What do you want to talk about** box, type your message.  
+b. (Optional) On the top-right pane, expand the **Add Tag** dropdown menu and select one of the following:
+- API
+- AI
+- English
 - Documentation tools  
-5. In the bottom pane, select **Post**.  
-   **Note**: You can edit or delete your post as needed.
+c. On the bottom pane, select **Post**.  
+**Note**: You can edit or delete your post as needed.
 
-**You have created a text post.**  
-
----
-
-**Add a Quiz**  
+Your text post is now visible to others.
+## Add a Quiz  
 Adding a quiz enhances engagement, assesses knowledge, and promotes interactive learning within the community.  
-**To add:**  
+To add,  
 1. On your device, open the **Tech Writers Tribe** app.  
 2. On the home page, perform one of the following:  
- - In the left pane, select **Create a post**.
- - In the middle pane, select the **Share something with the community** box.
- - In the middle pane, in the **Share something with the community** box, select the **+** icon.  
-   The **Create Post** window appears.
-3. In the **Create Post** window, select the **Add Quiz** icon.  
-   The **Add a Quiz** page appears.
-4. In the **Add a Quiz** page, enter the required details.  
+ - On the left pane, select **Create a post**.
+ - On the middle pane, select the **Share something with the community** box.
+ - In the **Share something with the community** box on the middle pane, select the **+** icon.  
+3. In the **Create Post** window, perform the following:  
+a. Select the **Add Quiz** icon.  
+b. In the **Add a Quiz** page, enter the required details.  
  For example, as displayed below.  
  ![Alt Text](https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/Untitled%201.png)
-5. In the bottom pane, select **Add**.
+c. On the bottom pane, select **Add**.
 
-**You have added a quiz.**  
+Your quiz is now visible to others.  
 
----
-
-**Add a Poll**  
+## Add a Poll  
 Adding a poll helps in collecting opinions in a short time. It also encourages participation and interaction from your audience.  
-**To add:**  
+To add,  
 1. On your device, open the **Tech Writers Tribe** app.
 2. On the home page, perform one of the following:
-- In the left pane, select **Create a post**.
-- In the middle pane, select the **Share something with the community** box.
-- In the middle pane, in the **Share something with the community** box, select the **+** icon.  
-The **Create Post** window appears.
-3. In the **Create Post** window, select the **Add Poll** icon.  
-The **Add a Poll** page appears.
-4. In the **Add a Poll** page, enter the required details.  
-   For example, as displayed below.  
+- On the left pane, select **Create a post**.
+- On the middle pane, select the **Share something with the community** box.
+- In the **Share something with the community** box on the middle pane, select the **+** icon.  
+3. In the **Create Post** window, perform the following:  
+a. Select the **Add poll** icon.    
+b. In the **Add a Poll** page, enter the required details.  
+For example, as displayed below.  
 ![Alt Text](https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/Untitled%202.png)
-5. In the bottom pane, select **Add**.
+c. On the bottom pane, select **Add**.  
+**Note**: You can edit or delete your post as needed.
 
-**You have added a poll.**  
+Your poll is now visible to others.
 
----
-
-**Add a Question**  
-Posting a question allows you to seek guidance and share knowledge. It also helps you to build a strong knowledge-sharing community.  
-**To add:**
+## Add a Question  
+Posting a question allows you to seek guidance and share knowledge. It also helps you build a strong knowledge-sharing community.  
+To add,
 1. On your device, open the **Tech Writers Tribe** app.
 2. On the home page, perform one of the following:
-- In the left pane, select **Create a post**.
-- In the middle pane, select the **Share something with the community** box.
-- In the middle pane, in the **Share something with the community** box, select the **+** icon.  
-The **Create Post** window appears.  
-3. In the **Create Post** window, select the **Add Question** icon.
-4. In the **Add a Question** box, enter your question.
-5. In the bottom pane, select **Add**.
+- On the left pane, select **Create a post**.
+- On the middle pane, select the **Share something with the community** box.
+- In the **Share something with the community** box on the middle pane, select the **+** icon.  
+3. In the **Create Post** window, perform the following:    
+a. Select the **Add question** icon.  
+The **Add a Question** page appears.  
+b. In the **Add your question here** box, enter your question.  
+c. On the bottom pane, select **Add**.  
+**Note**: You can edit or delete your post as needed.  
 
-**You have added a question.**  
+Your question is now visible to others. 
 
----
-
-**Add an Image**  
+## Add an Image  
 Sharing an image enhances communication, engagement, and clarity of your content. It also helps you to explain complex content visually.  
-**To share:**  
-1. On your device, open the Tech Writers Tribe app.
-2. On the home page, perform one of the following:
-- In the left pane, select **Create a post**.
-- In the middle pane, select the **Share something with the community** box.
-- In the middle pane, in the **Share something with the community** box, select the **+** icon.  
-The **Create Post** window appears.
-3. In the **Create Post** window, select the **Add Photos** icon.  
-The **Add Photos** window opens.
-4. In the **Add Photos** window, perform one of the following:
-- **Drag and Drop Method:**  
-     a. Open **File Explorer** or **Finder** on your device.  
-     b. Locate and select your desired image.  
-     c. Drag the image and drop it into the upload area.
-- **Browse and Select Method:**  
-     a. Select the **Drag and drop or click here to browse your files** box.  
-     The **File Explorer** tool opens.    
-     b. In the File Explorer tool, perform the following:  
-     i. Locate and select your desired image.  
-     ii. In the bottom pane, Select **Open**.  
-     The image appears in the **Add Photos** window. 
-5. In the bottom pane, select **Add**.
-
-**You have added an image.**  
-
----
-
-**Share a Video**  
-Video sharing lets you visually demonstrate a process and engage your audience effectively.  
-**To share:**  
+To share:  
 1. On your device, open the **Tech Writers Tribe** app.
 2. On the home page, perform one of the following:
-- In the left pane, select **Create a post**.
-- In the middle pane, select the **Share something with the community** box.
-- In the middle pane, in the **Share something with the community** box, select the **+** icon.  
-The **Create Post** window appears.
-3. In the **Create Post** window, select the **Add video** icon.  
-The **Add video** window appears.  
-4. In the **Add Video** window, perform one of the following:
+- On the left pane, select **Create a post**.
+- On the middle pane, select the **Share something with the community** box.
+- In the **Share something with the community** box on the middle pane, select the **+** icon.  
+3. In the **Create Post** window, perform the following:  
+a. Select the **Add photos** icon.  
+b. In the **Add Photos** window, perform one of the following:
 - Drag and drop method:  
-a. Open File Explorer or Finder on your device.  
-b. Locate and select your desired video file.  
-c. Drag the file and drop it into the upload area.
-- Browse and select Method:  
-a. Select the **Drag and drop or click here to browse your files** box.  
-The File Explorer tool opens.  
-b. In the File Explorer tool, perform the following:  
-i. Locate and select your desired video.  
-ii. In the bottom pane, select Open.  
-The video appears in the **Add Video** window.  
-**Note**: You can upload a maximum of 1 video per post.
-5. In the bottom pane, select **Add**.
+i. On your device, open File Explorer or Finder and select your image.  
+ii. In the **Add Photos** upload box, drag and drop your image.
+- Browse and select method:  
+i. Select the **Drag and drop or click here to browse your files** box.  
+The File Explorer or Finder application opens.  
+ii. In File Explorer or Finder, select and open your image.  
+The image appears in the **Add Photos** Window.  
+**Note**: You can upload a maximum of 25 images per post.  
+c. On the bottom pane, select Add.
 
-**You have shared a video.**  
+Your image is now visible to others.
 
----
-
-**Share a Document**  
-Sharing a document allows you to access important information anytime and maintain records efficiently.  
-**To share:**  
+## Share a Video  
+Video sharing lets you visually demonstrate a process and engage your audience effectively.  
+To share,  
 1. On your device, open the **Tech Writers Tribe** app.
 2. On the home page, perform one of the following:
-- In the left pane, select **Create a post**.
-- In the middle pane, select the **Share something with the community** box.
-- In the middle pane, in the **Share something with the community** box, select the + icon.  
-The **Create Post** window appears.
+- On the left pane, select **Create a post**.
+- On the middle pane, select the **Share something with the community** box.
+- In the **Share something with the community** box on the middle pane, select the **+** icon.  
+3. In the **Create Post** window, perform the following:  
+a. Select the **Add video** icon.  
+b. In the **Add Video** window, perform one of the following:
+- Drag and drop method:  
+i. On your device, open File Explorer or Finder and select your video.  
+ii. In the **Add Video** upload box, drag and drop your video.
+- Browse and select Method:  
+i. Select the **Drag and drop or click here to browse your files** box.  
+The File Explorer or Finder application opens.  
+ii. In File Explorer or Finder, select and open your video.  
+The video appears in the **Add Video** window.  
+**Note**: You can upload a maximum of 1 video per post.  
+c. On the bottom pane, select Add.
+
+Your video is now visible to others.
+
+## Share a Document  
+Sharing a document allows you to access important information anytime and maintain recor.  
+To share,  
+1. On your device, open the **Tech Writers Tribe** app.
+2. On the home page, perform one of the following:
+- On the left pane, select **Create a post**.
+- On the middle pane, select the **Share something with the community** box.
+- In the **Share something with the community** box on the middle pane, select the **+** icon.  
 3. In the **Create Post** window, select the **Add Documents** icon.  
-The **Add Documents** window appears.
 4. In the **Add Documents** window, perform one of the following:
 - Drag and drop method:  
-a. Open File Explorer or Finder on your device.  
-b. Locate and select your desired document.  
-c. Drag the document and drop it into the upload area.
+a. On your device, open File Explorer or Finder and select your document.  
+b. In the **Add Documents** upload box, drag and drop your document.
 - Browse and select method:  
 a. Select the **Drag and drop or click here to browse your files** box.  
-The File Explorer tool opens.  
-b. In the File Explorer tool, perform the following:  
-i. Locate and select your desired document.  
-ii. In the bottom pane, Select Open.  
+The File Explorer or Finder application opens.  
+b. In File Explorer or Finder, select and open your document.   
 The document appears in the **Add Documents** window.
-5. In the bottom pane, select **Add**.
+5. On the bottom pane, select **Add**.  
+**Note**: You can edit or delete your document as needed.  
 
-**You have shared a document.**  
-
----
+Your document is now visible to others.  
 
 # Frequently Asked Questions
 - **How can I tag someone in my post?**  
@@ -210,12 +199,8 @@ Only admins can pin posts. If you want your post to be pinned, contact the admin
 - **Can I recover a deleted post?**  
 You cannot recover a post after you delete it.
 
----
-
 # Best Practices
 - Use relevant hashtags. For example, `#TechnicalWriting`, `#APIWriting`.
 - Tag relevant members using `@username`.
 - Encourage engagement by asking questions and replying to comments.
 - Maintain a professional and respectful tone.  
-
----
