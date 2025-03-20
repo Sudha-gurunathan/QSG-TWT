@@ -74,6 +74,7 @@ a. Select the **Add Quiz** icon.
 b. In the **Add a Quiz** page, enter the required details.  
  For example, as displayed below.  
  ![Alt Text](https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/Untitled%201.png)  
+
 c. On the bottom pane, select **Add**.
 
 Your quiz is now visible to others.  
@@ -90,7 +91,8 @@ To add,
 a. Select the **Add poll** icon.    
 b. In the **Add a Poll** page, enter the required details.  
 For example, as displayed below.  
-![Alt Text](https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/Untitled%202.png)
+![Alt Text](https://raw.githubusercontent.com/Sudha-gurunathan/QSG-TWT/main/Untitled%202.png)  
+
 c. On the bottom pane, select **Add**.  
 **Note**: You can edit or delete your post as needed.
 
@@ -115,7 +117,7 @@ Your question is now visible to others.
 
 ## Add an Image  
 Sharing an image enhances communication, engagement, and clarity of your content. It also helps you to explain complex content visually.  
-To share:  
+To share,  
 1. On your device, open the **Tech Writers Tribe** app.
 2. On the home page, perform one of the following:
 - On the left pane, select **Create a post**.
@@ -133,7 +135,7 @@ The File Explorer or Finder application opens.
 ii. In File Explorer or Finder, select and open your image.  
 The image appears in the **Add Photos** Window.  
 **Note**: You can upload a maximum of 25 images per post.  
-c. On the bottom pane, select Add.
+c. On the bottom pane, select **Add**.
 
 Your image is now visible to others.
 
@@ -157,7 +159,7 @@ The File Explorer or Finder application opens.
 ii. In File Explorer or Finder, select and open your video.  
 The video appears in the **Add Video** window.  
 **Note**: You can upload a maximum of 1 video per post.  
-c. On the bottom pane, select Add.
+c. On the bottom pane, select **Add**.
 
 Your video is now visible to others.
 
